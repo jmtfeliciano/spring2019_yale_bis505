@@ -5,13 +5,31 @@ date: "Jan-23-2019, 5-6pm"
 output: html_notebook
 ---
 
+## Datasets today:
+
+Titanic roster that is saved in my GitHub account.
+
+Let us check out the raw data via:
+https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv
+
 
 
 ## Reading data:
 
-Before you try `read.table()` or `read.csv()`, open the file to see how data are separated.  Do they have a header or variable name?  
+Before you try `read.table()` or `read.csv()`, open the file to see raw data.  What is the structure of the dataset? Are they separated by white space or comma? Do they have a header or variable name?  
+
+### read.csv()
 
 ```{r}
+data1 <- read.csv(url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv"))
+data1
+```
 
+### read.table()
+
+```{r}
+data2 <- read.table(url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv"), sep = "," , header = TRUE)
+
+data2 
 ```
 
