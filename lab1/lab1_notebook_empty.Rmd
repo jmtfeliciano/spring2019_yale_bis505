@@ -22,16 +22,13 @@ Before you try `read.table()` or `read.csv()`, open the file to see raw data.  W
 ### read.csv()
 
 ```{r}
-data1 <- read.csv(file=url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv"))
-data1
+
 ```
 
 ### read.table()
 
 ```{r}
-data2 <- read.table(file=url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv"), sep = "," , header = TRUE)
 
-data2 
 ```
 
 
@@ -40,8 +37,7 @@ data2
 The link is:  https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/datafev.txt
 
 ```{r}
-data3 <- read.table(file=url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/datafev.txt"), header = TRUE)
-data3
+
 ```
 
 ## Data Frames
