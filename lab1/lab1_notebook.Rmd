@@ -1,0 +1,17 @@
+---
+title: "BIS 505 - Lab 1"
+author:  "Josemari Feliciano"
+date: "Jan-23-2019, 5-6pm"
+output: html_notebook
+---
+
+
+
+## Reading data:
+
+Before you try `read.table()` or `read.csv()`, open the file to see how data are separated.  Do they have a header or variable name?  
+
+```{r}
+
+```
+
