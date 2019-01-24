@@ -15,6 +15,15 @@ https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/da
 I also stored another dataset involving lung function that we will check later:
 https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/datafev.txt 
 
+Let's store these links as files.  Just think of it as file path for now.
+
+```{r}
+# do not worry about this at all!  don't need to know this
+file1 <- url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/titanic.csv")
+file2 <- url("https://raw.githubusercontent.com/neonseri/spring2019_yale_bis505/master/lab1/datasets/datafev.txt")
+```
+
+
 ## Reading data:  
 
 Before you try `read.table()` or `read.csv()`, open the file to see raw data.  What is the structure of the dataset? Are they separated by white space or comma? Do they have a header or variable name?  
