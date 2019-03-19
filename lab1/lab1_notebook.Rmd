@@ -49,3 +49,8 @@ data3
 Note:  when data are read by read.table() or any of its derivatives, it gets converted to data frame.
 
 Let us explore data frame below:  
+
+```{r}
+
+```
+
